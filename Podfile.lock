@@ -1,0 +1,24 @@
+PODS:
+  - geos (4.0.1)
+  - GEOSwift (4.1.0):
+    - geos (= 4.0.1)
+  - Toast-Swift (5.0.0)
+
+DEPENDENCIES:
+  - GEOSwift
+  - Toast-Swift (~> 5.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - geos
+    - GEOSwift
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  geos: fd7ff7eaf4ecccdfd7ac4914d0dec2816e3bc441
+  GEOSwift: dd3a232c84b4a88384f37db97f9b4cd2b5e05082
+  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
+
+PODFILE CHECKSUM: cd575c17af2dfad5f82fa6f6194560c7acdea1f5
+
+COCOAPODS: 1.5.3

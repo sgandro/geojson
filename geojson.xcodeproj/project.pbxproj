@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A14BD53BD79CDB1DBFCD602 /* Pods_geojson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA9B0535A7145939444F4B1 /* Pods_geojson.framework */; };
+		DE70364722DC671F00E4AF66 /* Rovigo.geojson in Resources */ = {isa = PBXBuildFile; fileRef = DE70363F22DC671F00E4AF66 /* Rovigo.geojson */; };
+		DE70364922DC671F00E4AF66 /* Verona.geojson in Resources */ = {isa = PBXBuildFile; fileRef = DE70364122DC671F00E4AF66 /* Verona.geojson */; };
+		DE70364A22DC671F00E4AF66 /* Padova.geojson in Resources */ = {isa = PBXBuildFile; fileRef = DE70364222DC671F00E4AF66 /* Padova.geojson */; };
+		DE70364B22DC671F00E4AF66 /* Belluno.geojson in Resources */ = {isa = PBXBuildFile; fileRef = DE70364322DC671F00E4AF66 /* Belluno.geojson */; };
+		DE70364C22DC671F00E4AF66 /* Venezia.geojson in Resources */ = {isa = PBXBuildFile; fileRef = DE70364422DC671F00E4AF66 /* Venezia.geojson */; };
+		DE70364D22DC671F00E4AF66 /* Treviso.geojson in Resources */ = {isa = PBXBuildFile; fileRef = DE70364522DC671F00E4AF66 /* Treviso.geojson */; };
+		DE70364E22DC671F00E4AF66 /* Vicenza.geojson in Resources */ = {isa = PBXBuildFile; fileRef = DE70364622DC671F00E4AF66 /* Vicenza.geojson */; };
+		DE70365022DC759600E4AF66 /* Veneto.geojson in Resources */ = {isa = PBXBuildFile; fileRef = DE70364F22DC759600E4AF66 /* Veneto.geojson */; };
+		DEA4B0AA22DC656A00EA5752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4B0A922DC656A00EA5752 /* AppDelegate.swift */; };
+		DEA4B0AC22DC656A00EA5752 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4B0AB22DC656A00EA5752 /* ViewController.swift */; };
+		DEA4B0AF22DC656A00EA5752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA4B0AD22DC656A00EA5752 /* Main.storyboard */; };
+		DEA4B0B122DC656B00EA5752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA4B0B022DC656B00EA5752 /* Assets.xcassets */; };
+		DEA4B0B422DC656B00EA5752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA4B0B222DC656B00EA5752 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		238ECF361D817D86C385F00C /* Pods-geojson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geojson.release.xcconfig"; path = "Pods/Target Support Files/Pods-geojson/Pods-geojson.release.xcconfig"; sourceTree = "<group>"; };
+		6DA9B0535A7145939444F4B1 /* Pods_geojson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geojson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE70363F22DC671F00E4AF66 /* Rovigo.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rovigo.geojson; sourceTree = "<group>"; };
+		DE70364122DC671F00E4AF66 /* Verona.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Verona.geojson; sourceTree = "<group>"; };
+		DE70364222DC671F00E4AF66 /* Padova.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Padova.geojson; sourceTree = "<group>"; };
+		DE70364322DC671F00E4AF66 /* Belluno.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Belluno.geojson; sourceTree = "<group>"; };
+		DE70364422DC671F00E4AF66 /* Venezia.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Venezia.geojson; sourceTree = "<group>"; };
+		DE70364522DC671F00E4AF66 /* Treviso.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Treviso.geojson; sourceTree = "<group>"; };
+		DE70364622DC671F00E4AF66 /* Vicenza.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vicenza.geojson; sourceTree = "<group>"; };
+		DE70364F22DC759600E4AF66 /* Veneto.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Veneto.geojson; sourceTree = "<group>"; };
+		DEA4B0A622DC656A00EA5752 /* geojson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geojson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA4B0A922DC656A00EA5752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEA4B0AB22DC656A00EA5752 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEA4B0AE22DC656A00EA5752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEA4B0B022DC656B00EA5752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEA4B0B322DC656B00EA5752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEA4B0B522DC656B00EA5752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC705682E53813AE5CCCD55 /* Pods-geojson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geojson.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geojson/Pods-geojson.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA4B0A322DC656A00EA5752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A14BD53BD79CDB1DBFCD602 /* Pods_geojson.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B556BDC1350CE29CEBF4255D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBC705682E53813AE5CCCD55 /* Pods-geojson.debug.xcconfig */,
+				238ECF361D817D86C385F00C /* Pods-geojson.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE70363E22DC671000E4AF66 /* RESOURCES */ = {
+			isa = PBXGroup;
+			children = (
+				DE70364F22DC759600E4AF66 /* Veneto.geojson */,
+				DE70364322DC671F00E4AF66 /* Belluno.geojson */,
+				DE70364222DC671F00E4AF66 /* Padova.geojson */,
+				DE70363F22DC671F00E4AF66 /* Rovigo.geojson */,
+				DE70364522DC671F00E4AF66 /* Treviso.geojson */,
+				DE70364422DC671F00E4AF66 /* Venezia.geojson */,
+				DE70364122DC671F00E4AF66 /* Verona.geojson */,
+				DE70364622DC671F00E4AF66 /* Vicenza.geojson */,
+			);
+			path = RESOURCES;
+			sourceTree = "<group>";
+		};
+		DEA4B09D22DC656A00EA5752 = {
+			isa = PBXGroup;
+			children = (
+				DEA4B0A822DC656A00EA5752 /* geojson */,
+				DEA4B0A722DC656A00EA5752 /* Products */,
+				B556BDC1350CE29CEBF4255D /* Pods */,
+				FC48438EA8376327756F906E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA4B0A722DC656A00EA5752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA4B0A622DC656A00EA5752 /* geojson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA4B0A822DC656A00EA5752 /* geojson */ = {
+			isa = PBXGroup;
+			children = (
+				DE70363E22DC671000E4AF66 /* RESOURCES */,
+				DEA4B0A922DC656A00EA5752 /* AppDelegate.swift */,
+				DEA4B0AB22DC656A00EA5752 /* ViewController.swift */,
+				DEA4B0AD22DC656A00EA5752 /* Main.storyboard */,
+				DEA4B0B022DC656B00EA5752 /* Assets.xcassets */,
+				DEA4B0B222DC656B00EA5752 /* LaunchScreen.storyboard */,
+				DEA4B0B522DC656B00EA5752 /* Info.plist */,
+			);
+			path = geojson;
+			sourceTree = "<group>";
+		};
+		FC48438EA8376327756F906E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9B0535A7145939444F4B1 /* Pods_geojson.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA4B0A522DC656A00EA5752 /* geojson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA4B0B822DC656B00EA5752 /* Build configuration list for PBXNativeTarget "geojson" */;
+			buildPhases = (
+				8ADB9541EBA13890BFC498BC /* [CP] Check Pods Manifest.lock */,
+				DEA4B0A222DC656A00EA5752 /* Sources */,
+				DEA4B0A322DC656A00EA5752 /* Frameworks */,
+				DEA4B0A422DC656A00EA5752 /* Resources */,
+				946D24C9B327AD8702818382 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geojson;
+			productName = geojson;
+			productReference = DEA4B0A622DC656A00EA5752 /* geojson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA4B09E22DC656A00EA5752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = AlePerna;
+				TargetAttributes = {
+					DEA4B0A522DC656A00EA5752 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DEA4B0A122DC656A00EA5752 /* Build configuration list for PBXProject "geojson" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA4B09D22DC656A00EA5752;
+			productRefGroup = DEA4B0A722DC656A00EA5752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA4B0A522DC656A00EA5752 /* geojson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA4B0A422DC656A00EA5752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA4B0B422DC656B00EA5752 /* LaunchScreen.storyboard in Resources */,
+				DEA4B0B122DC656B00EA5752 /* Assets.xcassets in Resources */,
+				DE70364C22DC671F00E4AF66 /* Venezia.geojson in Resources */,
+				DE70364922DC671F00E4AF66 /* Verona.geojson in Resources */,
+				DE70365022DC759600E4AF66 /* Veneto.geojson in Resources */,
+				DE70364B22DC671F00E4AF66 /* Belluno.geojson in Resources */,
+				DE70364E22DC671F00E4AF66 /* Vicenza.geojson in Resources */,
+				DEA4B0AF22DC656A00EA5752 /* Main.storyboard in Resources */,
+				DE70364A22DC671F00E4AF66 /* Padova.geojson in Resources */,
+				DE70364D22DC671F00E4AF66 /* Treviso.geojson in Resources */,
+				DE70364722DC671F00E4AF66 /* Rovigo.geojson in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8ADB9541EBA13890BFC498BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-geojson-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		946D24C9B327AD8702818382 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-geojson/Pods-geojson-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GEOSwift/GEOSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/geos/geos.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GEOSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/geos.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geojson/Pods-geojson-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA4B0A222DC656A00EA5752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA4B0AC22DC656A00EA5752 /* ViewController.swift in Sources */,
+				DEA4B0AA22DC656A00EA5752 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEA4B0AD22DC656A00EA5752 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA4B0AE22DC656A00EA5752 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEA4B0B222DC656B00EA5752 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA4B0B322DC656B00EA5752 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA4B0B622DC656B00EA5752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEA4B0B722DC656B00EA5752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA4B0B922DC656B00EA5752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBC705682E53813AE5CCCD55 /* Pods-geojson.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CWC2C4BZ3;
+				INFOPLIST_FILE = geojson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.alper.geojson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEA4B0BA22DC656B00EA5752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238ECF361D817D86C385F00C /* Pods-geojson.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CWC2C4BZ3;
+				INFOPLIST_FILE = geojson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.alper.geojson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA4B0A122DC656A00EA5752 /* Build configuration list for PBXProject "geojson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA4B0B622DC656B00EA5752 /* Debug */,
+				DEA4B0B722DC656B00EA5752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA4B0B822DC656B00EA5752 /* Build configuration list for PBXNativeTarget "geojson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA4B0B922DC656B00EA5752 /* Debug */,
+				DEA4B0BA22DC656B00EA5752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA4B09E22DC656A00EA5752 /* Project object */;
+}
